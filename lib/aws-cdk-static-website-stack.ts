@@ -33,7 +33,7 @@ export class AwsCdkStaticWebsiteStack extends cdk.Stack {
 
 
     const siteHostedZone = route53.HostedZone.fromHostedZoneAttributes(this,'siteHostedZone',  { 
-      hostedZoneId: 'XXXXXXXXXXXX', // Provide correct hostname
+      hostedZoneId: 'XXXXXXXXXXXX', // Provide correct hostedzoneid
       zoneName: 'example.com', 
     
     })
